@@ -3,6 +3,7 @@ import React from 'react'
 import LockOutlinedIcon from '@mui/icons-material/LockOutlined';
 import Button from '@mui/material/Button';
 import Link from '@mui/material/Link';
+import {Link as Linked} from 'react-router-dom'
 
 const Signup = () => {
 
@@ -25,9 +26,9 @@ const buttonStyly = {margin: '20px 0'}
           <TextField id="filled-basic" label="Enter Password" variant="filled" type='password' style = {buttonStyle} fullWidth required />
           
            <Typography> Already a member ?
-              <Link href="#" underline="hover">
+              <Linked to="/log-in" underline="hover">
                  sign in   
-              </Link>
+              </Linked>
 
            </Typography>
            <Button variant="contained" style = {buttonStyly} fullWidth required> Sign Up </Button>

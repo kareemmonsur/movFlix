@@ -6,6 +6,8 @@ import FormControlLabel from '@mui/material/FormControlLabel';
 import Checkbox from '@mui/material/Checkbox';
 import Button from '@mui/material/Button';
 import Link from '@mui/material/Link';
+import {Link as Linked} from 'react-router-dom'
+
 
 
 const Login = () => {
@@ -36,10 +38,10 @@ const buttonStyly = {margin: '35px 0'}
 
            </Typography>
            <Typography> Do you have account ?
-              <Link href="#" underline="hover">
+              <Linked to="/sign-up" underline="hover">
                  sign up 
                   
-              </Link>
+              </Linked>
 
            </Typography>
           
