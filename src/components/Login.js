@@ -6,7 +6,8 @@ import FormControlLabel from '@mui/material/FormControlLabel';
 import Checkbox from '@mui/material/Checkbox';
 import Button from '@mui/material/Button';
 import Link from '@mui/material/Link';
-import {Link as Linked} from 'react-router-dom'
+import {Link as Linked} from 'react-router-dom';
+
 
 
 
@@ -48,6 +49,7 @@ const buttonStyly = {margin: '35px 0'}
           
          
         </Paper>
+      
     </Grid>
   )
 }

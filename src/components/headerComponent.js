@@ -7,7 +7,7 @@ const HeaderComponent = () => {
             <nav className="navbar navbar-expand-md navbar-dark bg-dark">
                 <div>
                     <a href="#" className="navbar-brand">
-                        Movie Management Application
+                        Movflix
                     </a>
                 </div>
             </nav>
